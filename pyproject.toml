@@ -1,0 +1,9 @@
+[project]
+name = "codexplay"
+version = "0.1.0"
+description = "A tiny playground for agent arena experiments."
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+codexplay-arena = "codexplay.arena:run_battle"
